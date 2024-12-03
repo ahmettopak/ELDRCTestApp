@@ -11,7 +11,7 @@ public class RobotMessageBuilder {
     // Enum for Transmitter IDs
     public enum Transmitter {
         MOTOR_CONTROLLER('C'),
-        MAINBOARD('M'),
+        MAIN_BOARD('M'),
         MASTER('X');
 
         private final char id;
@@ -23,7 +23,7 @@ public class RobotMessageBuilder {
     public enum Receiver {
         ALL('A'),
         MOTOR_CONTROLLER('C'),
-        MAINBOARD('M'),
+        MAIN_BOARD('M'),
         MASTER('X');
 
         private final char id;
